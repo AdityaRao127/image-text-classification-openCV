@@ -1,1 +1,2 @@
-# openCV-image-text-classification
+# Image Classification Program
+
