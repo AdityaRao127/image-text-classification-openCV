@@ -1,1 +1,1 @@
-# image-text-classification-openCV
+# openCV-image-text-classification
