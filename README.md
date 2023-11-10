@@ -14,4 +14,4 @@ The repository is equipped with scripts and models specifically for detecting te
 - Matplotlib
 
 
-Example: ![Example Image](images)
+Example: ![Example Image](images/example.png)
