@@ -4,7 +4,7 @@ This project demonstrates text detection using an EAST (Efficient and Accurate S
 
 ## Overview
 
-The repository contains scripts and models for text detection on images. The EAST model is used to detect text regions, and the detected text is highlighted with rectangular boxes. 
+The repository is equipped with scripts and models specifically for detecting text in images. It utilizes the EAST model to identify text regions, which are then accentuated using rectangular boxes. This approach is highly effective in various applications like document scanning and image-based text extraction, but also in red-light cameras for license plates. 
 
 ## Requirements
 
