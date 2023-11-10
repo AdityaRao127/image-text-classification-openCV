@@ -14,4 +14,4 @@ The repository is equipped with scripts and models specifically for detecting te
 - Matplotlib
 
 
-Example: ![Example Image](example.png)
+Example: ![Example Image](#content/highway_sign.jpg)
