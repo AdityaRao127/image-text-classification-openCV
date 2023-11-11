@@ -16,4 +16,4 @@ The repository is equipped with scripts and models specifically for detecting te
 
 ## Example: 
 
-![Example Image](images/example.png)
+![Example Image](images/highway_example.png)
