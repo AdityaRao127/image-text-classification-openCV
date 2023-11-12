@@ -12,6 +12,7 @@ Before you get started, ensure you have the following requirements installed on 
 
 - Python 3.11
 - TensorFlow Lite
+- NumPy
 - OpenCV
 
 ## Installation
