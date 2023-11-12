@@ -60,7 +60,7 @@ Follow these steps to set up and run the text detection project:
 
 ### License Plate Text Detection
 
-In this example, the text detection model successfully identifies and highlights license plate regions, showcasing its applicability in tasks such as license plate recognition for traffic monitoring or automated toll collection.
+- In this example, the text detection model successfully identifies and highlights license plate regions, showcasing its applicability in tasks such as license plate recognition for traffic monitoring or automated toll collection.
 
 ![License Plate Example](Example_Images/license_plate_ex.png)
 
