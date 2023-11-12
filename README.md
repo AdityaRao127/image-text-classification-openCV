@@ -82,3 +82,15 @@ In scenarios where there is no text, the model demonstrates its ability to handl
 
 ![No Text Example](Example_Images/no_text_example.png)
 
+## Credits
+
+Some portions of this code utilize the EAST detector model tutorial from PyImageSearch.
+
+Original tutorial: "OpenCV Text Detection (EAST text detector)" by Adrian Rosebrock
+
+Available at: [PyImageSearch Tutorial](https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/)
+
+Setup Acknowledgments: This project utilizes the EAST algorithm methodologies from the following GitHub repositories:
+
+- OpenCV Text Detection by gifflet: [GitHub Repository](https://github.com/gifflet/opencv-text-detection)
+- Adventures in TensorFlow Lite (EAST_TFLite notebook) by Sayak Paul: [GitHub Repository](https://github.com/sayakpaul/Adventures-in-TensorFlow-Lite/blob/master/EAST_TFLite.ipynb)
