@@ -48,7 +48,7 @@ Follow these steps to set up and run the text detection project:
     **python post_processing.py**
     ```
 
-4. **Check the output for detected text regions and recognition boxes.**
+4. **Check the output for detected text regions with light-green boxes:**
 
     ```bash
     python combine_and_label_images.py
@@ -62,22 +62,22 @@ Follow these steps to set up and run the text detection project:
 
 In this example, the text detection model successfully identifies and highlights license plate regions, showcasing its applicability in tasks such as license plate recognition for traffic monitoring or automated toll collection.
 
-![License Plate Example](license_plate_ex.png)
+![License Plate Example](Example_Images/license_plate_ex.png)
 
 ### Other Examples
 
 - Highway Signs Example
 
-  ![Highway Signs](highway_example.png)
+  ![Highway Signs](Example_Images/highway_example.png)
 
 - Multiple Signs Example
   - The model handles scenarios with multiple signs, some featuring text and others without.
 
-  ![Signs Example](signs_example.png)
+  ![Signs Example](Example_Images/signs_example.png)
 
 ### No Text Example
 
 In scenarios where there is no text, the model demonstrates its ability to handle such cases.
 
-![No Text Example](no_text_example.png)
+![No Text Example](Example_Images/no_text_example.png)
 
