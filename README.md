@@ -31,8 +31,6 @@ Follow these steps to set up and run the text detection project:
 	--east /content/opencv-text-detection/frozen_east_text_detection.pb
     ```
 
-    **Note:** You may need to install additional dependencies, such as 'pytesseract,' for text recognition.
-
 3. **Convert the EAST model to TensorFlow Lite format with quantization:**
 
     ```bash
