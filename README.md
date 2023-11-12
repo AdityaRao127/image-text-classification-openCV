@@ -13,7 +13,6 @@ Before you get started, ensure you have the following requirements installed on 
 - Python 3.11
 - TensorFlow Lite
 - OpenCV
-- Matplotlib
 
 ## Installation
 
@@ -28,13 +27,13 @@ Follow these steps to set up and run the text detection project:
 2. Run the EAST text detection script with your image:
 
     ```bash
-    python /content/text-detection-opencv-east/opencv_ocr_image.py --image /content/text-detection-opencv-east/images/sign.jpg \
-        --east /content/text-detection-opencv-east/frozen_east_text_detection.pb
+    python /content/opencv-text-detection/text_detection.py --image /content/opencv-text-detection/images/sign.jpg \
+	--east /content/opencv-text-detection/frozen_east_text_detection.pb
     ```
 
-    Note: You may need to install additional dependencies, such as 'pytesseract,' for text recognition.
+    **Note:** You may need to install additional dependencies, such as 'pytesseract,' for text recognition.
 
-3. Convert the EAST model to TensorFlow Lite format with quantization:
+3. **Convert the EAST model to TensorFlow Lite format with quantization:**
 
     ```bash
     # Download and extract a subset of the COCO-Text dataset for quantization
@@ -42,25 +41,45 @@ Follow these steps to set up and run the text detection project:
     tar xf coco_text_100.tar.gz
 
     # Prepare the representative dataset for quantization
-    IMAGE_LIST = list(paths.list_images('/content/coco_text_100'))
-    IMG_SIZE = 320
+    **python pre_processing.py**
 
     # Run the representative dataset generation script
-    python generate_representative_dataset.py
+    **python perform_inference.py**
 
     # Convert the EAST model to TensorFlow Lite format with quantization
-    python convert_to_tflite.py
+    **python post_processing.py**
     ```
 
-4. Run inference on your preprocessed image:
+4. **Check the output for detected text regions and recognition boxes.**
 
     ```bash
-    python inference.py --image /path/to/your/image.jpg
+    python combine_and_label_images.py
     ```
 
-5. Check the output for detected text regions and bounding boxes.
+    This will show images and results side by side.
 
-## Example
+## Examples
 
-![Example Image](highway_example.png)
+### License Plate Text Detection
+
+In this example, the text detection model successfully identifies and highlights license plate regions, showcasing its applicability in tasks such as license plate recognition for traffic monitoring or automated toll collection.
+
+![License Plate Example](license_plate_example.png)
+
+### Other Examples
+
+- Highway Signs Example
+
+  ![Highway Signs](highway_example.png)
+
+- Multiple Signs Example
+  - The model handles scenarios with multiple signs, some featuring text and others without.
+
+  ![Signs Example](signs_example.png)
+
+### No Text Example
+
+In scenarios where there is no text, the model demonstrates its ability to handle such cases.
+
+![No Text Example](no_text_example.png)
 
