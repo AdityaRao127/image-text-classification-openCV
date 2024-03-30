@@ -84,9 +84,9 @@ In scenarios where there is no text, the model demonstrates its ability to handl
 
 ## Credits
 
-Some portions of this code utilize the EAST detector model tutorial from PyImageSearch.
+- Some portions of this code utilize the EAST detector model tutorial from PyImageSearch.
 
-Original tutorial: "OpenCV Text Detection (EAST text detector)" by Adrian Rosebrock
+- "OpenCV Text Detection (EAST text detector)" by Adrian Rosebrock
 
 Available at: [PyImageSearch Tutorial](https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/)
 
